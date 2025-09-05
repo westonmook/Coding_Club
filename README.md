@@ -1,2 +1,2 @@
 # Coding_Club
-A repossitory for the CCA coding club
+A repository for the CCA coding club
