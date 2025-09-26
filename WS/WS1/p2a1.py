@@ -3,4 +3,5 @@ favorite_color = "blue"
 likes_pizza = True
 
 print(age, favorite_color, likes_pizza)
-#test
+#testign git functions
+    
