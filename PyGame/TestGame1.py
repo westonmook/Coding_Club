@@ -60,7 +60,7 @@ left = pg.K_LEFT
 sbar = pg.K_SPACE
 #Game loop
 while running:
-    screen.fill((0, 40, 70))
+    #screen.fill((0, 40, 70))
     #bg1
     screen.blit(background, (0, 0))
     #events
