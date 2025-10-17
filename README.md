@@ -1,5 +1,14 @@
 # Coding Club
 
+[![GitHub stars](https://img.shields.io/github/stars/westonmook/Coding_Club?style=flat-square)](https://github.com/YourUsername/Coding-Club/stargazers) <!-- Stars Badge -->
+[![GitHub forks](https://img.shields.io/github/forks/westonmook/Coding_Club?style=flat-square)](https://github.com/YourUsername/Coding-Club/forks) <!-- Forks Badge -->
+[![GitHub contributors](https://img.shields.io/github/contributors/westonmook/Coding_Club?style=flat-square)](https://github.com/YourUsername/Coding-Club/graphs/contributors) <!-- Contributors Badge -->
+[![License](https://img.shields.io/github/license/westonmook/Coding_Club?style=flat-square)](./LICENSE) <!-- License Badge (TBD) -->
+[![Wiki](https://img.shields.io/badge/Documentation-Wiki-blue?style=flat-square)](../../wiki) <!-- Wiki Badge -->
+
+
+---
+
 Welcome to the **Coding Club Repository**!  
 This is our central hub for code, collaboration, and community projects.  
 Whether you’re new to programming or already experienced, this repo and its wiki will help you learn, practice, and grow as a developer.
