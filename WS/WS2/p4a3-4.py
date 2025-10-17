@@ -1,8 +1,13 @@
 #p4a3
 try:
     print(10 / 0)
+   # if True == True:
+        #print("reality is ok")
+
 except ZeroDivisionError:
     print("Cannot divide by 0!")
+except IndentationError:
+    print("fix yo indentations!")
 #print separation
 print()
 #p4a4

@@ -4,13 +4,17 @@
 print('Pick an error from 1 to 12')
 uin = int(input())
 if uin == 1:
+    #variable definition error
     print(my_list[10])
 elif uin == 2:
+    #index error
     my_list = [1,2]
     print(my_list[10])
 elif uin == 3:
+    #value error
     print(int("hello"))
 elif uin == 4:
+    #Zero division Error
     print(10 / 0)
 elif uin == 5:
     # KeyError
