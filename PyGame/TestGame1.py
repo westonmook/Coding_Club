@@ -22,11 +22,19 @@ def player(x, y):
     screen.blit(playerImg, (x, y))
 
 #Alien
-alienImg = pg.image.load('resources/alien.png')
-alienX = random.randint(0, 800)
-alienY = random.randint(20, 150)
-alienX_change = 0.3
-alienY_change = 0
+alienImg = []
+alienX = []
+alienY = []
+alienX_change = []
+alienY_change = []
+q_of_aliens = 7
+#old variables
+for i in range(q_of_aliens):
+    alienImg.append(pg.image.load('resources/alien.png'))
+    alienX.append(random.randint(0, 800))
+    alienY.append(random.randint(20, 150))
+    alienX_change.append(0.3)
+    alienY_change.append(0)
 
 #Laser
 laserImg = pg.image.load('resources/substract.png')
@@ -35,7 +43,7 @@ laserY = 480
 cannon_posR = 43
 cannon_posL = -2
 cannon_pos = 0
-#cannon
+    #cannon
 def cannon_alt():
     global cannon_pos
     if cannon_pos == cannon_posL:
@@ -48,13 +56,29 @@ def cannon_alt():
 laserY_change = 0.5
 laser_state = "ready"
 
+#Scoring
+score = 0
+
 #Alien function
-def alien(x, y):
-    screen.blit(alienImg, (x, y))
+def alien(x, y, i):
+    screen.blit(alienImg[i], (x, y))
+
+def alien_respawn(i):
+    global alienX, alienY
+    alienX[i] = random.randint(0, 800)
+    alienY[i] = random.randint(20, 200)
 
 #Laser function
 def fire_laser(x, y):
     screen.blit(laserImg, (x + cannon_pos, y + 10))
+
+#collision
+def isCollision(alienX, alienY, laserX, laserY, i):
+    distance = ((alienX - laserX)**2 + (alienY - laserY)**2)**0.5
+    if distance < 24:
+        return True
+    else:
+        return False
 
 #keyboard input assignment
 running = True
@@ -97,22 +121,35 @@ while running:
         playerX = -20
 
     #alien boundary
-    alienX += alienX_change
-    if alienX <= -20:
-        alienX_change = 0.2
-        alienY +=25
-    elif alienX >= 756:
-        alienX_change = -0.2
-        alienY += 25
+    for i in range(q_of_aliens):
+        alienX[i] += alienX_change[i]
+        if alienX[i] <= -20:
+            alienX_change[i] = 0.2
+            alienY[i] +=25
+        elif alienX[i] >= 756:
+            alienX_change[i] = -0.2
+            alienY[i] += 25
+            
+        #collision
+        collision = isCollision(alienX[i], alienY[i], laserX, laserY, i)
+        if collision:
+            laserY = 480
+            laser_state = "ready"
+            score += 1
+            print("your score is: " + str(score))
+            alien_respawn(i)
+        alien(alienX[i], alienY[i], i)
 
     #image printing
     player(playerX, playerY)
-    alien(alienX, alienY)
+    
     #laser movement
     if laser_state == "fire":
         laserY -= laserY_change
         fire_laser(laserX, laserY)
         if laserY < -60:
             laser_state = "ready"
+    
+
     pg.display.update()
     
