@@ -11,6 +11,7 @@ background = pg.image.load('resources/bg1.jpg')
 pg.display.set_caption("Space Invaders")
 ulicon = pg.image.load("resources/play.png")
 pg.display.set_icon(ulicon)
+
 #Player
 playerImg = pg.image.load('resources/spaceship.png')
 playerX = 370
@@ -19,6 +20,7 @@ playerX_change = 0
 #player function
 def player(x, y):
     screen.blit(playerImg, (x, y))
+
 #Alien
 alienImg = pg.image.load('resources/alien.png')
 alienX = random.randint(0, 800)
@@ -33,6 +35,7 @@ laserY = 480
 cannon_posR = 43
 cannon_posL = -2
 cannon_pos = 0
+#cannon
 def cannon_alt():
     global cannon_pos
     if cannon_pos == cannon_posL:
@@ -58,15 +61,18 @@ running = True
 right = pg.K_RIGHT
 left = pg.K_LEFT
 sbar = pg.K_SPACE
+
 #Game loop
 while running:
     #screen.fill((0, 40, 70))
     #bg1
     screen.blit(background, (0, 0))
+
     #events
     for event in pg.event.get():
         if event.type == pg.QUIT:
             running = False
+
         #Keystroke <,>
         if event.type == pg.KEYDOWN:
             if event.key == left:
@@ -89,6 +95,7 @@ while running:
         playerX = 756
     elif playerX >= 756:
         playerX = -20
+
     #alien boundary
     alienX += alienX_change
     if alienX <= -20:
@@ -97,6 +104,7 @@ while running:
     elif alienX >= 756:
         alienX_change = -0.2
         alienY += 25
+
     #image printing
     player(playerX, playerY)
     alien(alienX, alienY)
