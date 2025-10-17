@@ -31,7 +31,8 @@ If you’d like to be added, open a pull request updating this file.
 | Name | GitHub | Area of Expertise | Contact |
 |------|---------|------------------|----------|
 | Example Lead | [@LeadUser](https://github.com/LeadUser) | Web Dev, Python | Phone-Number +1 111-123-1234 |
-|  |  |  |  |
+|Alexander Gubrud  |@plyfofun  |Python, C++  |Phone-Number +1 720-592-6980  |
+|   |   |   |   |
 
 ---
 
@@ -51,4 +52,4 @@ If you’d like to be added, open a pull request updating this file.
 
 ---
 
-_Last updated: {{insert date manually when updated}}_
+_Last updated: {10/17/2025}_
