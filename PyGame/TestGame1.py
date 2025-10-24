@@ -36,7 +36,7 @@ alienX = []
 alienY = []
 alienX_change = []
 alienY_change = []
-q_of_aliens = 7
+q_of_aliens = 8
 #alien_t_switch = 0
 #old variables
 for i in range(q_of_aliens):
@@ -81,7 +81,7 @@ def show_score(x, y):
 
 #Game Over
 GOfont = pg.font.Font('freesansbold.ttf', 80)
-def game_over(x,y):
+def game_over():
     gotext = font.render("Aliens Obliterated... YOU!", True, (245, 205, 95))
     screen.blit(gotext, (250,300))
 
@@ -153,7 +153,7 @@ while running:
     for i in range(q_of_aliens):
 
         #Game Over
-        if alienY[i] > 440:
+        if alienY[i] > 640:
             for j in range(q_of_aliens):
                 alienY[j] = 2000
             game_over()
