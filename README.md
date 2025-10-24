@@ -1,4 +1,4 @@
-# Coding Club
+# Welcome to the Coding Club GitHub
 
 [![GitHub stars](https://img.shields.io/github/stars/westonmook/Coding_Club?style=flat-square)](https://github.com/YourUsername/Coding-Club/stargazers) <!-- Stars Badge -->
 [![GitHub forks](https://img.shields.io/github/forks/westonmook/Coding_Club?style=flat-square)](https://github.com/YourUsername/Coding-Club/forks) <!-- Forks Badge -->
