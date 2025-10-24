@@ -1,15 +1,18 @@
 #include <stdlib.h>
 #include <iostream>
+#include <cstdlib>
+#include <ctime>
 
-auto yn = 'b';
+
+auto yon = 'b';
 int yloop() {
   for(int i = 0; i < 100; i++) {
-    std::cin >> yn;
-    if(yn == 'y' || yn == 'n') {
+    std::cin >> yon;
+    if(yon == 'y' || yon == 'n') {
       break;
-  return 0;
     }
   }
+  return 1;
 }
 
 // int main() {
@@ -37,7 +40,7 @@ int yloop() {
 
 
 int main(){
-  //srand (time(NULL));
+  std::srand(static_cast<unsigned>(std::time(nullptr)));
   int c = rand() % 5 + 1;
   int u = 0;
   std::string comp = " The computer beat you.";
