@@ -1,3 +1,7 @@
+#this is my test comment to show how github works
+
+
+
 import pygame as pg
 import os
 ##import random
@@ -42,6 +46,8 @@ else:
 
 #title bar
 pg.display.set_caption("The Leaves")
+ulicon = pg.image.load("resources/maple-leaf(1).png")
+pg.display.set_icon(ulicon)
 ##ulicon = pg.image.load("")
 ##pg.set_icon(ulicon)
 
@@ -114,6 +120,7 @@ while game_running:
     for event in pg.event.get():
         if event.type == pg.QUIT:
             game_running = False
+        #acceleration of player
         if event.type == pg.KEYDOWN:
             if event.key == up:
                 CplayerY = -1.0
