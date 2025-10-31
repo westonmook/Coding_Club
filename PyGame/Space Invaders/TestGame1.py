@@ -4,8 +4,9 @@ import random
 
 #always initialize
 pg.init()
-#menu
+
 screen = pg.display.set_mode((800, 600))
+
 #background image
 background = pg.image.load('resources/bg1.jpg')
 
