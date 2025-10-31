@@ -5,11 +5,11 @@ We want this to be a friendly, inclusive space where everyone feels supported to
 
 ---
 
-## Our Pledge
+## Our Goal
 
--
--
--
+-Goals of this organization shall be: Improving awareness of the importance of learning coding and programming in an increasingly computerized world; 
+-making as much of the local population as computer savvy as we can;
+-to take part in local programming events such that we are competitive; to foster a group of friends who can rely on each other; to spark the love of learning in all.
 
 
 ---
@@ -26,8 +26,8 @@ Examples of behavior that contribute to a positive environment include:
 ## Our Responsibilities
 
 Leaders and moderators are responsible for:
-- 
-- 
+- Being upstanding members of the community college and someone that others can go to for help.
+- Teaching code and maintaining the disipline necessary for self taught growth
 -   
 ---
 
