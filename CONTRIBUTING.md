@@ -1,4 +1,4 @@
-# Contributing to Coding Club
+# Contributing to the Coding Club
 
 Thank you for your interest in contributing to **Coding Club**!  
 We welcome all members - from beginners to advanced programmers - to help us grow and share knowledge together.
@@ -10,7 +10,7 @@ We welcome all members - from beginners to advanced programmers - to help us gro
 - **Add tutorials or guides** to the wiki  
 - **Fix errors** in existing materials  
 - **Submit example projects** (Python, C++, Web, etc.)  
-- **Host or document workshops**  
+- **Host or document workshops** With images, short videos, metrics of accomplishment etc. 
 - **Review and improve** others’ code or documentation  
 
 ---
@@ -53,7 +53,7 @@ We welcome all members - from beginners to advanced programmers - to help us gro
 
 ## Style Guidelines
 
-- Keep your code **clean and readable**
+- Keep your code **clean and readable** preferably add comments throughout for clarity
 - Use consistent indentation and naming conventions  
 - Comment your code briefly to explain key steps  
 - Include small, runnable examples when possible  
@@ -94,7 +94,7 @@ Be kind, respectful, and collaborative.
 If you have questions:
 - Open a [Discussion](../../discussions)
 - Ask in our **WhatsApp** channels
-- Contact a club leader or mentor directly  
+- Contact a club leader or mentor directly: wmook@student.cccs.edu
 
 We’re here to help you contribute and learn.
 
