@@ -1,26 +1,31 @@
+#include <stdlib.h>
 #include <iostream>
-auto yn = 'b';
+#include <cstdlib>
+#include <ctime>
+
+
+auto yon = 'b';
 int yloop() {
   for(int i = 0; i < 100; i++) {
-    std::cin >> yn;
-    if(yn == 'y' || yn == 'n') {
+    std::cin >> yon;
+    if(yon == 'y' || yon == 'n') {
       break;
-  return 0;
     }
   }
+  return 1;
 }
 
-int main() {
-  std::string test = "Why aren't you Coding?\n";
-  std::cout << test;
-  yloop();
-  if(yn == 'I am!') {
-    std::cout << "Good choice. \n" << "The future will rely on the tech-makers.\n";
-    int pchoice = 0;
-    std::cin >> pchoice;
-    if(pchoice == 1) {
-      std::cout << "The apple appears in your hand. it seems to flash in and out of existence. The screen just in front of the merchants eyes flashes for roughly 15 seconds before he says. Thank you for your purchase. He fades from your presence\n";
-    }}}
+// int main() {
+//  std::string test = "Why aren't you Coding?\n";
+//  std::cout << test;
+//  yloop();
+//  if(yn == 'I am!') {
+//    std::cout << "Good choice. \n" << "The future will rely on the tech-makers.\n";
+//    int pchoice = 0;
+//    std::cin >> pchoice;
+//    if(pchoice == 1) {
+//      std::cout << "The apple appears in your hand. it seems to flash in and out of existence. The screen just in front of the merchants eyes flashes for roughly 15 seconds before he says. Thank you for your purchase. He fades from your presence\n";
+//    }}}
 
 //rock beats scissors
 //rock beats lizard
@@ -32,11 +37,10 @@ int main() {
 //lizard beats spock
 //spock beats rock
 //spock beats scissors
-#include <iostream>
-#include <stdlib.h>
+
 
 int main(){
-  srand (time(NULL));
+  std::srand(static_cast<unsigned>(std::time(nullptr)));
   int c = rand() % 5 + 1;
   int u = 0;
   std::string comp = " The computer beat you.";
