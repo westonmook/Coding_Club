@@ -130,6 +130,10 @@ To contribute:
 
 ---
 
+## Location / Meetings
+- **Location:** Room 114 CentreTech Classroom Building
+- **Meetings:** Friday 2:00 pm - 3:30 pm 
+
 ## Contact
 
 If you’d like to get involved or have questions:
