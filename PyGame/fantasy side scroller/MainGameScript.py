@@ -1,6 +1,3 @@
-#testing to make sure I can save on parrot
-#yope
-
 
 
 import pygame as pg
