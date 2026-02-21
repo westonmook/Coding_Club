@@ -18,6 +18,7 @@ Whether you’re new to programming or already experienced, this repo and its wi
 ## About the Club
 
 The **Coding Club** is a student-led group focused on helping members:
+
 - Learn and apply programming fundamentals  
 - Collaborate on real projects and open-source contributions  
 - Build practical skills in web, game, and app development  
@@ -36,6 +37,7 @@ If you’re just joining, here’s how to get started:
    - Install [Git](https://git-scm.com/downloads)
    - Create a [GitHub account](https://github.com/)
    - Clone this repository:
+
      ```bash
      git clone <repo_url>
      cd Coding-Club
@@ -56,19 +58,20 @@ If you’re just joining, here’s how to get started:
 
 ## What You’ll Learn
 
-| Category | Skills Covered |
-|-----------|----------------|
-| **Programming** | Python, C++, JavaScript, Java |
-| **Web Development** | HTML, CSS, JavaScript, React |
-| **Software Tools** | Git, GitHub, VS Code |
-| **Algorithms & Logic** | Loops, arrays, sorting, problem-solving |
-| **Projects** | Games, websites, utilities, automation scripts |
+|Category|Skills Covered|
+|---|---|
+|**Programming**|Python, C++, JavaScript, Java|
+|**Web Development**|HTML, CSS, JavaScript, React|
+|**Software Tools**|Git, GitHub, VS Code|
+|**Algorithms & Logic**|Loops, arrays, sorting, problem-solving|
+|**Projects**|Games, websites, utilities, automation scripts|
 
 ---
 
 ## Club Activities
 
 We host a variety of hands-on and collaborative sessions:
+
 - **Workshops** - Learn new programming topics and tools  
 - **Mini Projects** - Build small apps, games, or websites  
 - **Coding Challenges** - Compete and sharpen your problem-solving  
@@ -101,22 +104,28 @@ Here’s the general roadmap we recommend:
 
 We welcome contributions from all members!  
 You can:
+
 - Add new tutorials or examples  
 - Improve existing code or documentation  
 - Share your personal projects  
 
 To contribute:
+
 1. Fork this repository  
 2. Create a new branch  
+
    ```bash
    git checkout -b feature-branch
    ```
+
 3. Make your changes  
 4. Commit and push  
+
    ```bash
    git commit -m "Added new tutorial"
    git push origin feature-branch
    ```
+
 5. Open a pull request  
 
 ---
@@ -133,7 +142,8 @@ To contribute:
 ## Contact
 
 If you’d like to get involved or have questions:
-- **Email:** wmook@student.cccs.edu
+
+- **Email:** [wmook@student.cccs.edu](mailto:wmook@student.cccs.edu)
 - **Discord:** N/A
 - **WhatsApp:** Available upon request
 - **GitHub Discussions:** Use the “Discussions” tab to connect with others  
@@ -141,6 +151,7 @@ If you’d like to get involved or have questions:
 ---
 
 ### Ready to Start Learning?
+
 Head to the [Wiki Home Page](../../wiki) and begin with our **[Python Basics](../../wiki/Python)** guide!
 
 ---
